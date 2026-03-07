@@ -1,0 +1,429 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(#c09a01,#B12C00,#61011c);
+    width: 100%;
+    margin: 0;
+}
+#login{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Instrument Sans', Courier, monospace;
+    font-weight: 800;
+    color: #1D1616;
+}
+.inputs{
+    width: 50vh;
+    padding: 5px;
+}
+.InputButton{
+    font-size: 15px;
+    cursor: pointer;
+    padding: 3px;
+}
+#feedback{
+    padding: 20px;
+}
+#navigation{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+#navigation a:link, #navigation a:visited, #navigation a:hover, #navigation a:active{
+    text-decoration: none;
+    color: inherit;
+}
+#navigation a{
+    font-size: 15px;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    color: #1D1616;
+    font-family: 'Instrument Sans', Courier, monospace;
+    padding: 20px;
+    font-size: 20px;
+}
+#types li{
+    border: 2px solid;
+    list-style: none;
+    max-width: 500px;
+    box-shadow: 0 2px 5px black;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+#exp{
+    max-width: 92%;
+}
+li img{
+    max-width: 80%;
+    text-align: center;
+}
+#categories ul{
+    display: flex;
+    gap: 10px;
+}
+#main-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 100%;
+    flex-direction: column;
+}
+#intro{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Instrument Sans', Courier, monospace;
+    font-weight: 800;
+}
+#intro h1{
+    color: #1D1616;
+}
+#intro p{
+    color: #490404;
+    font-size: 20px;
+}
+.learn-more{
+    font-size: 20px;
+    font-family: 'Instrument Sans', Courier, monospace;
+    font-weight: 800;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 2px #ff6b6b solid;
+    padding: 5px;
+}
+.learn-more:hover{
+    color: #e26c8e;
+    border:black 2px solid;
+    transition: 0.3s ease, 0.3s ease-out;
+}
+#login button{
+    font-family: 'Instrument Sans', Courier, monospace;
+    font-weight: 800;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    background-color: black;
+    color: white;
+    border: 2px #8E1616 solid;
+    padding: 5px;
+}
+#login button:hover{
+    color: #D84040;
+    border:black 2px solid;
+    transition: 0.3s ease, 0.3s ease-out;
+}
+#evolve a:active,#evolve a:link, #evolve a:visited,#evolve a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+.Genre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+.Genre h1{
+    font-size: 50px;
+    color: #1D1616;
+    font-family: 'Instrument Sans', Courier, monospace;
+}
+.Genre p{
+    font-size: 20px;
+    font-family: 'Instrument Sans', Courier, monospace;
+    font-weight: 800;
+    color: #0a0000;
+}
+.genreImg{
+    max-width: 53%;
+}
+
+#genreTypes{
+    display: flex;
+    flex-wrap: wrap;
+}
+.breakers{
+    text-align: center;
+    font-size: 20px;
+    color: #ec6f6f;
+    font-family: 'Instrument Sans', Courier, monospace;
+    font-weight: 800;
+    width: 100%;
+}
+#expText{
+    margin-left: 50px;
+}
+#musicPlayer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+}
+#songName{
+    padding: 10px;
+    font-size: 2.2em;
+    font-family: 'Instrument Sans', Courier, monospace;
+    font-weight: 800;
+}
+#songImage{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+#musicBtns{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    padding: 10px;
+}
+#musicBtns i{
+    padding: 10px;
+}
+#songSlider{
+    align-items: center;
+}
+#songSlider{
+    width: 300px;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-appearance: none;
+    height: 5px;
+    accent-color: #3a0700;
+    background-color: black;
+}
+#songsContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 20px;
+}
+#songsList li{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+#songsList li:hover{
+    background-color: rgba(94, 93, 93, 0.3);
+    transition: ease 0.3s;
+}
+#songsList li:active{
+    background-color: rgba(175, 175, 175, 0.3);
+    transition: ease 0.3s;
+}
+#songsList{
+    width: 350px;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 130px;
+}
+#songsList li img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+}
+li h3{
+    font-family: 'Instrument Sans', Courier, monospace;
+    font-weight: 800;
+    color: #280905;
+}
+#prevSong:hover{
+    color: rgb(192, 188, 188);
+    transition: color 0.5s, ease 0.3s;
+}
+#prevSong:active{
+    color: rgb(255, 243, 243)
+}
+#nextSong:hover{
+    color: rgb(192, 188, 188);
+    transition: color 0.5s, ease 0.3s;
+}
+#nextSong:active{
+    color: rgb(255, 243, 243)
+}
+#playPause:hover{
+    color: rgb(192, 188, 188);;
+    transition: color 0.5s, ease 0.3s;
+}
+#playPause:active{
+    color: rgb(255, 243, 243)
+}
+#repeatSong:hover{
+    color: rgb(192, 188, 188);
+    transition: color 0.5s, ease 0.3s;
+}
+#repeatSong:active{
+    color: rgb(255, 243, 243)
+}
+#shuffleSong:hover{
+    color: rgb(192, 188, 188);;
+    transition: color 0.5s, ease 0.3s;
+}
+#shuffleSong:active{
+    color: rgb(255, 243, 243)
+}
+#footerContainer{
+    display:flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+#evolve,#links,#social{
+    margin: 20px;
+}
+footer{
+    grid-row: 3;
+    margin: 0;
+    width: 100%;
+    background-color: #1a0101;
+}
+#evolve{
+    color: #aa3030;
+    font-family: 'Instrument Sans', Courier, monospace;
+    padding: 5px;
+    font-size: 20px;
+}
+#rights{
+    color: #aa3030 ;
+    font-family: 'Instrument Sans', Courier, monospace;
+    padding:5px;
+    font-size: 16px;
+    text-align: center;
+}
+#aboutText{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutSection{
+    max-width: 700px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.aboutSection h1{
+    font-size: 40px;
+    color: #280905;
+    font-family: 'Instrument Sans', Courier, monospace;
+    padding:5px;
+}
+.aboutSection p{
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Instrument Sans', Courier, monospace;
+    font-weight: 800;
+}
+#genreChange{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+#genreChange h1{
+    color: #000000;
+    font-size: 40px;
+    font-family: 'Instrument Sans', Courier, monospace;
+    font-weight: 800;
+}
+#genreChange a{color: black;}
+#genreChange a:hover{
+    color: rgb(192, 188, 188);
+    transition: 0.3s ease;
+}
+@media(max-width:768px){
+    #header{
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #intro{
+        font-size: 14px;
+        text-align: center;
+    }
+    #intro p{
+        font-size: 15px;
+    }
+    #songsContainer{
+        flex-direction: column;
+    }
+    #musicPlayer{
+        width: 200px;
+    }
+    #songsList{
+        width: 250px;
+    }
+    #songSlider{
+        width: 250px;
+    }
+    #songImage{
+        width: 270px;
+        height: 270px;
+    }
+    #songName{
+        font-size: 20px;
+    }
+    #evolve{
+        font-size: 15px;
+        padding: 0;
+        margin: 0;
+    }
+    #footerContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Genre{
+        flex-direction: column;
+    }
+    .genreImg{
+        max-width: 100%;
+    }
+    .Genre h1{
+        font-size: 30px;
+    }
+    .Genre p{
+        font-size: 15px;
+    }
+    .aboutSection h1{
+        font-size: 25px;
+        text-align: center;
+    }
+    .aboutSection p{
+        font-size: 15px;}
+    .inputs{
+        width: 40vh;
+    }
+    #genreChange h1{
+        font-size: 20px;
+    }
+}
