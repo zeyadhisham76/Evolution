@@ -86,7 +86,8 @@ playPause.addEventListener("click",function(){
         audio.pause()
         playPause.className = "fa-solid fa-circle-play fa-3x"
     }
-    else{audio.play()
+    else{
+        audio.play()
         playPause.className= "fa-solid fa-circle-pause fa-3x"
     }
 })
