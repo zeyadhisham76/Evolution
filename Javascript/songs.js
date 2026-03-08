@@ -9,7 +9,7 @@ const songDuration = document.getElementById('songDuration')
 const songs = [
     {
         name: "Lament",
-        image: 'SRC/CoverArts/SAM_1484-640x640.jpg',
+        image: 'SRC/CoverArts/SAM1484-640x640.jpg',
         audio: "SRC/Beats/Trap/tamalymaaaaaaaak.mp3"
     },
     {
