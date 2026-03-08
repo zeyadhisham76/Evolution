@@ -8,13 +8,13 @@ const songDuration = document.getElementById('songDuration')
 const songs = [
     {
         name: "Heart of Darkness",
-        image: 'SRC/CoverArts/eye.jpg',
-        audio: "SRC/Beats/Evolution/asap.mp3"
+        image: 'https://media.githubusercontent.com/media/zeyadhisham76/Evolution/refs/heads/main/SRC/CoverArts/eye.jpg',
+        audio: "https://media.githubusercontent.com/media/zeyadhisham76/Evolution/refs/heads/main/SRC/Beats/Evolution/asap.mp3"
     },
     {
         name: "Trip down",
-        image: "SRC/CoverArts/trip.jpg",
-        audio: "SRC/Beats/Evolution/experimentalevolution.mp3"
+        image: "https://media.githubusercontent.com/media/zeyadhisham76/Evolution/refs/heads/main/SRC/CoverArts/trip.jpg",
+        audio: "https://media.githubusercontent.com/media/zeyadhisham76/Evolution/refs/heads/main/SRC/Beats/Evolution/experimentalevolution.mp3"
     },
     {
         name: "Meltdown",
