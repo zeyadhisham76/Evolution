@@ -8,38 +8,38 @@ const playPause = document.getElementById("playPause")
 const songs = [
     {
         name: 'Hadarny Mawkef',
-        image:"SRC/CoverArts/egypt.jpg",
-        audio: "SRC/Beats/OldSchool/cypher.mp3"
+        image:"https://media.githubusercontent.com/media/zeyadhisham76/Evolution/refs/heads/main/SRC/CoverArts/egypt.jpg",
+        audio: "https://media.githubusercontent.com/media/zeyadhisham76/Evolution/refs/heads/main/SRC/Beats/OldSchool/cypher.mp3"
     },
     {
         name: 'Sway',
-        image:"SRC/CoverArts/70.jpg",
-        audio: "SRC/Beats/OldSchool/sway.mp3"
+        image:"https://media.githubusercontent.com/media/zeyadhisham76/Evolution/refs/heads/main/SRC/CoverArts/70.jpg",
+        audio: "https://media.githubusercontent.com/media/zeyadhisham76/Evolution/refs/heads/main/SRC/Beats/OldSchool/sway.mp3"
     },
     {
         name: 'Baligh Hamdy',
-        image:"SRC/CoverArts/hamdy.jpg",
-        audio: "SRC/Beats/OldSchool/BalighHamdy.mp3"
+        image:"https://media.githubusercontent.com/media/zeyadhisham76/Evolution/refs/heads/main/SRC/CoverArts/hamdy.jpg",
+        audio: "https://media.githubusercontent.com/media/zeyadhisham76/Evolution/refs/heads/main/SRC/Beats/OldSchool/BalighHamdy.mp3"
     },
     {
         name: 'Daydreaming',
-        image:"SRC/CoverArts/ye.jpg",
-        audio: "SRC/Beats/OldSchool/georgettesayegh.mp3"
+        image:"https://media.githubusercontent.com/media/zeyadhisham76/Evolution/refs/heads/main/SRC/CoverArts/ye.jpg",
+        audio: "https://media.githubusercontent.com/media/zeyadhisham76/Evolution/refs/heads/main/SRC/Beats/OldSchool/georgettesayegh.mp3"
     },
     {
         name: "That's how it will go",
-        image:"SRC/CoverArts/kobr.jpg",
-        audio: "SRC/Beats/OldSchool/go.mp3"
+        image:"https://media.githubusercontent.com/media/zeyadhisham76/Evolution/refs/heads/main/SRC/CoverArts/kobr.jpg",
+        audio: "https://media.githubusercontent.com/media/zeyadhisham76/Evolution/refs/heads/main/SRC/Beats/OldSchool/go.mp3"
     },
     {
         name: "Cody Rhodes",
-        image:"SRC/CoverArts/cody.jpg",
-        audio: "SRC/Beats/OldSchool/CodyRhodes.mp3"
+        image:"https://media.githubusercontent.com/media/zeyadhisham76/Evolution/refs/heads/main/SRC/CoverArts/cody.jpg",
+        audio: "https://media.githubusercontent.com/media/zeyadhisham76/Evolution/refs/heads/main/SRC/Beats/OldSchool/CodyRhodes.mp3"
     },
     {
         name: "Kevin Durant",
-        image:"SRC/CoverArts/durant.jpg",
-        audio: "SRC/Beats/OldSchool/Paparazzi.mp3"
+        image:"https://media.githubusercontent.com/media/zeyadhisham76/Evolution/refs/heads/main/SRC/CoverArts/durant.jpg",
+        audio: "https://media.githubusercontent.com/media/zeyadhisham76/Evolution/refs/heads/main/SRC/Beats/OldSchool/Paparazzi.mp3"
     }
 ]
 let currentSongIndex = 0

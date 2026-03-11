@@ -18,18 +18,18 @@ const songs = [
     },
     {
         name: "Meltdown",
-        image: "SRC/CoverArts/meltdown.jpg",
-        audio: "SRC/Beats/Evolution/Paracetamol.mp3"
+        image: "https://media.githubusercontent.com/media/zeyadhisham76/Evolution/refs/heads/main/SRC/CoverArts/meltdown.jpg",
+        audio: "https://media.githubusercontent.com/media/zeyadhisham76/Evolution/refs/heads/main/SRC/Beats/Evolution/Paracetamol.mp3"
     },
     {
         name: "Forbidden Drugs",
-        image: "SRC/CoverArts/orb.jpg",
-        audio: "SRC/Beats/Evolution/ForbiddenDrugs.mp3"
+        image: "https://media.githubusercontent.com/media/zeyadhisham76/Evolution/refs/heads/main/SRC/CoverArts/orb.jpg",
+        audio: "https://media.githubusercontent.com/media/zeyadhisham76/Evolution/refs/heads/main/SRC/Beats/Evolution/ForbiddenDrugs.mp3"
     },
     {
         name: "Mr.Edgar",
-        image: "SRC/CoverArts/edgar.jpg",
-        audio: "SRC/Beats/Evolution/Edgar.mp3"
+        image: "https://media.githubusercontent.com/media/zeyadhisham76/Evolution/refs/heads/main/SRC/CoverArts/edgar.jpg",
+        audio: "https://media.githubusercontent.com/media/zeyadhisham76/Evolution/refs/heads/main/SRC/Beats/Evolution/Edgar.mp3"
     }
 ]
 const audio = document.createElement("audio")

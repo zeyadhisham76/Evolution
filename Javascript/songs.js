@@ -9,28 +9,28 @@ const songDuration = document.getElementById('songDuration')
 const songs = [
     {
         name: "Lament",
-        image: 'SRC/CoverArts/SAM1484-640x640.jpg',
-        audio: "SRC/Beats/Trap/tamalymaaaaaaaak.mp3"
+        image: 'https://media.githubusercontent.com/media/zeyadhisham76/Evolution/refs/heads/main/SRC/CoverArts/SAM1484-640x640.jpg',
+        audio: "https://media.githubusercontent.com/media/zeyadhisham76/Evolution/refs/heads/main/SRC/Beats/Trap/tamalymaaaaaaaak.mp3"
     },
     {
         name: "Derrick Rose",
-        image: 'SRC/CoverArts/rose.png',
-        audio: "SRC/Beats/Trap/drose.mp3"
+        image: 'https://media.githubusercontent.com/media/zeyadhisham76/Evolution/refs/heads/main/SRC/CoverArts/rose.png',
+        audio: "https://media.githubusercontent.com/media/zeyadhisham76/Evolution/refs/heads/main/SRC/Beats/Trap/drose.mp3"
     },
     {
         name: "Behind The Back",
-        image: 'SRC/CoverArts/download-640x640.jpg',
-        audio: "SRC/Beats/Trap/BehindtheBack.mp3"
+        image: 'https://media.githubusercontent.com/media/zeyadhisham76/Evolution/refs/heads/main/SRC/CoverArts/download-640x640.jpg',
+        audio: "https://media.githubusercontent.com/media/zeyadhisham76/Evolution/refs/heads/main/SRC/Beats/Trap/BehindtheBack.mp3"
     },
     {
         name: "Dennis Rodman",
-        image: "SRC/CoverArts/dennis.jpg",
-        audio: "SRC/Beats/Trap/DennisRodman.mp3"
+        image: "https://media.githubusercontent.com/media/zeyadhisham76/Evolution/refs/heads/main/SRC/CoverArts/dennis.jpg",
+        audio: "https://media.githubusercontent.com/media/zeyadhisham76/Evolution/refs/heads/main/SRC/Beats/Trap/DennisRodman.mp3"
     },
     {
         name: "6:30 AM",
-        image: "SRC/CoverArts/6am.jpg",
-        audio: "SRC/Beats/Trap/4ambeat.mp3"
+        image: "https://media.githubusercontent.com/media/zeyadhisham76/Evolution/refs/heads/main/SRC/CoverArts/6am.jpg",
+        audio: "https://media.githubusercontent.com/media/zeyadhisham76/Evolution/refs/heads/main/SRC/Beats/Trap/4ambeat.mp3"
     }
 ]
 
